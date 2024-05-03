@@ -1,0 +1,147 @@
+ html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+div {
+  height: 100%;
+  /* ... */
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ .u-section-1 {
+  background-image: url("images/contact.jpg");
+  background-position: 50% 50%;
+  height: 90%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 715px;
+}
+
+.u-section-1 .u-image-1 {
+  height: 261px;
+  width: 1140px;
+  margin: 147px -10px 0 auto;
+}
+
+.u-section-1 .u-text-1 {
+  letter-spacing: 1px;
+  font-family: Poppins;
+  font-size: 3.75rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-shadow: 0px 0px 8px rgba(182,215,222,0.65);
+  box-shadow: 0px 0px 0 0 rgba(0,0,0,0);
+  margin: 0 85px;
+}
+
+.u-section-1 .u-form-1 {
+  height: 158px;
+  width: 624px;
+  margin: 33px auto 50px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 9px 0 11px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 831px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 215px;
+    margin-top: 151px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-top: 53px;
+    margin-bottom: 60px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 607px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 165px;
+    margin-top: 60px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-top: 9px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 814px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.5rem;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 643px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: 133px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-top: 18px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+}
